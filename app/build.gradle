@@ -33,7 +33,7 @@ uploadArchives {
         mavenDeployer {
             repository(url: uri("../../omada-nexus/release"))
             pom.groupId = 'com.github.omadahealth.shealth.sdk'
-            pom.artifactId = 'sqlhealth_android'
+            pom.artifactId = 'shealth_android'
             pom.version = '1.0.0'
         }
     }
